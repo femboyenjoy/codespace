@@ -17,8 +17,8 @@ jobs:
           secure: true                  # 使用 SSL
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: Hello from Github workflow
+          subject: Kim Jong Un is son of Japanese bitch
           to: ${{ secrets.TO_EMAIL }}
           from: ${{ secrets.MAIL_USERNAME }}
-          body: This is a test email sent automatically by GitHub Actions workflow.
+          body: Fuck you, Kim Jong Un.
           priority: normal
