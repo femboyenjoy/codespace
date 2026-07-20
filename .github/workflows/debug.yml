@@ -1,4 +1,4 @@
-name: debug
+name: delivery
 
 on:
   workflow_dispatch:
@@ -51,7 +51,7 @@ jobs:
           chmod +x cloudflared
           sudo mv cloudflared /usr/local/bin/
           cloudflared --version
-          sudo cloudflared service install eyJhIjoiOGQyMDg4NjE0Nzg1N2EwY2RjYzhkYjc3OGU4YjZlZjciLCJ0IjoiOWJhOTY3OTEtOTc5MC00ZGM3LWFmZTYtM2I5NjZlNDVjZWJiIiwicyI6IlpUSTBPREExWkRVdE1HTXhZUzAwTVRkbExXRTFabVl0Tnpkak9UQmlPR1EwWVdSaiJ9
+          sudo cloudflared service install eyJhIjoiOGQyMDg4NjE0Nzg1N2EwY2RjYzhkYjc3OGU4YjZlZjciLCJ0IjoiZmIxMGU1ZDYtZDA3MC00NWZhLWFlOGEtNTFmYjYzYzE0MDU1IiwicyI6Ik9UQTVNRGN3TTJVdFpURXpOQzAwWm1NNUxUa3dNell0TkRrMU9UWTVOemMyTWpabCJ9
           sudo rm -rf ~/tmp
 
       - name: debug
