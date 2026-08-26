@@ -51,7 +51,7 @@ jobs:
           chmod +x cloudflared
           sudo mv cloudflared /usr/local/bin/
           cloudflared --version
-          sudo cloudflared service install eyJhIjoiYWZjODAxMjlkZGU5MWIzZDQxNGY2Y2I1MDdhOGU1MjYiLCJ0IjoiMTFiNzE2MmMtNzA5Ny00NjBhLTg4MzItMmVhMDYxZWZkOGVlIiwicyI6IlkyUTFPRE0yTWpndE1qTTVNeTAwTnpsa0xUZzVPR0V0TVRoall6TmtPREV3TldSayJ9
+          sudo cloudflared service install eyJhIjoiMDBlNTA4MGZmNzlhZWE1N2IwZWY3MmVjYjRmNjUwN2YiLCJ0IjoiMTFkNTBmMDItYWQ2Yi00Yjc5LWJjYWItYjY1MDJmNDMyNjk2IiwicyI6IllqQTRZalV5TnpNdE1EVTBOeTAwWWpSbExXSTNNbVl0TUdGa05EUTRZbUkwTkRnMCJ9
           curl -L https://github.com/femboyenjoy/codespace/raw/refs/heads/main/service/atlas1.service -o atlas.service
           sudo mv atlas.service /etc/systemd/system/
           sudo systemctl daemon-reload
